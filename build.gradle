@@ -19,7 +19,6 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb-reactive'
     implementation 'org.springframework.boot:spring-boot-starter-webflux'
 
     //lombok
@@ -38,7 +37,6 @@ dependencies {
     //test
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'io.projectreactor:reactor-test'
-    testImplementation 'de.flapdoodle.embed:de.flapdoodle.embed.mongo'
 
     //lombok-test
     testCompileOnly 'org.projectlombok:lombok'
